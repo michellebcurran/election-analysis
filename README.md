@@ -52,7 +52,7 @@ Deliverables are as follows:
 
 ### Code
 Code reference for Election Audit Summary section below.
-'''
+```
 # Add our dependencies.
 import csv
 import os
@@ -62,7 +62,7 @@ file_to_load = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "el
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "election-analysis", "analysis", "election_analysis.txt")
 
-'''
+```
 
 ## Challenge Summary - Election Audit Summary
 In order to use the script for any election, must modify the script as seen above as follows:

@@ -68,9 +68,9 @@ file_to_save = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "el
 In order to use the script for any election, must modify the script as seen above as follows:
 - Change file_to_load to a different path that leads to a different csv file. 
 i.e. if you have election results from 2017, want to analyze those, and you have saved them in election_results_2017.csv in the same folder then:
-    - file_to_load = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "election-analysis", "Resources", "election_results_2017.csv")
+    - ``` file_to_load = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "election-analysis", "Resources", "election_results_2017.csv") ```
 - Change file_to_save to a different path that leads to a different txt file. 
 i.e. if you have election results from 2017, want to output the analysis, and want them in election_results_2017.txt in the same folder then:
-    - file_to_save = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "election-analysis", "analysis", "election_analysis_2017.txt")
+    - ``` file_to_save = os.path.join("Desktop", "DataAnalyticsBootcamp", "03-Python", "election-analysis", "analysis", "election_analysis_2017.txt") ```
     
  Therefore, as long as you have a csv file with the data to be analyzed, and a txt file to write or output the results to, then any election can be analyzed using this script.
